@@ -1,0 +1,38 @@
+.contenedor{
+	background: red;
+	border: 1px solid blue;
+	overflow: hidden;
+}
+H1{
+	COLOR: yellow;
+	text-align: center;
+}
+li{
+	float: left;   /*float indica donde debe posicionarse, recuerda que los lados estan al reves de lo que TU ves*/
+	height:40px;
+	margin:20px;
+}
+.img1{
+	float: left; /*para posicionarlo toma el margen del div contenedor*/
+	margin: 0em 2em;
+	border: 1px solid black;
+}
+.img2{
+	float: right;
+	margin: 0em 2em;
+	border: 1px solid black;
+}
+body{
+	background-color: olive;
+}
+
+/* clase de allison, fuentes iconos y sprites*/
+
+.fa-reddit-alien{
+	font-size: 50px;
+	color: blue;
+}
+.fa-github{
+	font-size: 50px;
+	color: red;
+}
